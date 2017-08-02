@@ -22,7 +22,7 @@ public:
 	Object_2* object_2;
 	int u1[11];
 	Velocity_Object* velocity_object;
-	char u2[0xb8 - 0x44 - sizeof(Velocity_Object *)];
+	char u2[0xb8 - 0x40 - sizeof(Velocity_Object *)];
 	D3DXVECTOR3 coords;
 };
 
